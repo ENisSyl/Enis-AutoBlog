@@ -1,0 +1,422 @@
+/* @media */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+}
+  
+
+/* index */
+
+body{
+    font-size: 1.7rem;
+    background-color: grey;
+    padding: 4rem;
+    color: blue;
+    height: 2550px;
+    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(30, 0, 255) 100%);
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 65px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+}
+
+#center {
+    margin: auto;
+    width: 1100px;
+    height: 1500px;;
+    background-color: black;
+    border: solid 4px white;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+img{
+    width: 900px;
+    height: 600px;
+    border: 5px solid white;
+}
+
+.Bereich{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Image{
+    position: relative;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(red, green, blue, alpha);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1;
+  
+}
+
+.content p{
+    font-weight: 1000;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+h3{
+    text-align: center;
+    background-color: black;
+    color: blue;
+
+}
+
+hr{
+    background-color: blue;
+}
+
+.MHimg{
+    width: 500px;
+    height: 380px;
+    float: left;
+}
+
+.text{
+    font-family:"Arial Black", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.P2::first-letter{
+    -webkit-initial-letter: 4;
+    font-size: 100px;
+    color: blue;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 3px solid blue;
+    margin-top: -1000px;
+    margin-left: -2px;
+    height: 196px;
+    border-bottom: black;
+  }
+
+.Trechts{
+    border-right: white;
+}
+  .M3rim{
+    height: 150px;
+    width: 250px;
+    margin-left: 50px;
+    position: relative;
+
+  }
+  .Spoiler{
+    height: 150px;
+    width: 250px;
+    margin-left: 100px;
+  }
+
+  .Diffusor{
+    height: 150px;
+    width: 250px;
+    margin-left: 50px;
+  }
+
+/* Modelle */
+*{
+    box-sizing: border-box; 
+}
+
+.h1neu{
+    background-color: black;
+    color: blue;
+    text-align: center;
+    height: 60px;
+    font-size: 45px;
+    border-radius: 30px;
+}
+
+.Modelle::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+.product{
+    display: flex;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    overflow: visible;
+    background-color: #5072A7;
+    color: black;
+    text-align:center;
+    width: 240px;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-left: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.infobutton{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    transition: .2s ease;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+
+.Kaufbutton:hover{
+    background-color: grey;
+    color: black;
+    border-color: black;
+}
+
+.Kaufbutton{
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.image2 {
+    width: 225px;
+    height: 150px;
+    filter: none;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 550px;
+    margin-top: 500px;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border: blue;
+    border-bottom: none;
+    border-top: dotted white;
+    border-bottom: dotted white;
+    border-left: dotted white;
+    border-right: dotted white;
+}
+
+.footer2{
+    color: white;
+    background-color: black;
+    height: 500px;
+    margin-top: 450px;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+    border-left: dotted white;
+    border-right: dotted white;
+}
+
+.footer3{
+    color: white;
+    background-color: black;
+    height: 500px;
+    margin-top: 250px;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+    border-left: dotted white;
+    border-right: dotted white;
+}
+
+#mod p{
+    margin-left: 380px ;
+
+}
+
+
+#kunden{
+    margin-left: 620px;
+    margin-top: -196px;
+    
+}
+
+#kontakt{
+    margin-left: 950px;
+    margin-top: -236px;
+}
+
+.P3{
+    margin-left: 400px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.P4{
+    text-align: center;
+    margin-top: -40px;
+    text-decoration: none;
+    color: white;
+}
+
+.P5{
+    margin-left: 930px;
+    margin-top: -40px;
+    text-decoration: none;
+    color: white;
+}
+
+.P6{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.pBig{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.body2{
+    height: 3120px;
+}
+
+/*Favorit*/
+.body3{
+    height: 1500px;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+.FavPic{
+    width: 800px;
+    height: 500px;
+    margin-left: 300px;
+}
+
+
+/* POP-UP */
+
+#kaufpopup{
+    height: 300px;
+    width: 700px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 18px;
+    position: fixed;
+    z-index: 999;
+
+    display: none;
+}
+
+#kaufpopup button{
+    margin-left: 260px;
+    padding: 10px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+}
+
+#kaufpopup button:hover{
+    background-color: grey;
+}
+
+#kaufpopup p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#Popup-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+    backdrop-filter: blur(3px);
+
+}
+
+
+/*Drucklayout*/
+
+@media print {
+    body {
+        font-size: 12pt; 
+        color: #000; 
+    }
+  
+    header, footer, img {
+        display: none !important; 
+    }
+  
+    .content {
+        margin: 0; 
+        padding: 0; 
+        page-break-inside: avoid; 
+    }
+}  
+
+/*Splashscreen*/
+.Pp{
+    text-align: center;
+    font-size: 35px;
+}
+
+.pP{
+    text-align: center;
+    font-size: 20px;
+}
+
+.image3{
+    filter: none;
+}
